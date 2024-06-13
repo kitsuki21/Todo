@@ -1,0 +1,21 @@
+.li {
+  display: flex;
+  align-items: center;
+  border: 3px solid #33eeea;
+  border-radius: 60px;
+  width: 500px;
+  padding: 10px;
+  justify-content: space-around;
+  cursor: grab;
+  margin: 10px 0;
+}
+
+.warperTitle {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+.checkedTitle {
+  text-decoration: line-through;
+}
